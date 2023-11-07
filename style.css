@@ -1,0 +1,86 @@
+body {
+    border: 0;
+    margin: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-color: rgb(212, 12, 52);
+}
+
+@font-face {
+    font-family: mqh___11;
+    src: url(./mqh___11.ttf);
+    font-weight: bolder;
+}
+
+.main {
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.main>.nav {
+    background-color: black;
+    padding: 2px;
+}
+
+.main>.nav>a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    margin: 30px;
+}
+
+p>span {
+    font-family: "mqh___11";
+    font-size: xx-large;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 50px;
+    text-indent: 10px;
+}
+
+.main>p {
+    text-align: justify;
+    font-weight: bold;
+    line-height: 15px;
+
+}
+
+.thumb img {
+    width: 100%;
+
+}
+.images .image-container{
+display: inline-block;
+width: 135px;
+margin-right: 20px;
+margin-left: 0;
+padding: 3px;
+padding-bottom: 2px;
+}
+.image-container img{
+    width: 160px;
+    margin: 5px;
+    height: 150px;
+    margin-bottom: 2px;
+}
+.image-container p{
+    margin: 0;
+    padding: 0;
+}
+.last
+{
+    margin-right: 0 !important;
+    margin-left: 20px !important;
+    width: 170px;
+}
